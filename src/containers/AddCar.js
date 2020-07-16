@@ -1,6 +1,6 @@
-import { connect } from 'react-redux'
-import AddCar from '../components/AddCar'
-import {addCar} from '../redux/action.js'
+import { connect } from 'react-redux';
+import AddCar from '../components/AddCar';
+import {addCar} from '../redux/action';
 
 
 const mapDispatchToProps = (dispatch) => {
